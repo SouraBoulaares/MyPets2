@@ -19,6 +19,16 @@ Avenir Next
 Lato
 */
 /*---------------------------------------------*/
+@font-face {
+  font-family: Avenir-Next;
+  src: url(../fonts/AvenirNext-Regular.woff) format('woff');
+
+}
+
+/*----------------------2-----------------------*/
+/*                  DEFAULTS                    */
+
+/*----------------------------------------------*/
 *{
   padding: 0;
   margin: 0;
@@ -27,24 +37,14 @@ Lato
   box-sizing: border-box;
 }
 body { 
-  color: black;
+  /* color: black; */
   font-family: 'Avenir Next';
-  width: 1440px; 
-  height: 3609px;
+  /* width: 1440px; 
+  height: 3609px; */
   background: #FFFFFF;
 }
 main {
 display: block;
-}
-/*----------------------2-----------------------*/
-/*                  DEFAULTS                    */
-
-/*----------------------------------------------*/
-
-* {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
 }
 .container{
 display: flex;
@@ -237,7 +237,7 @@ bottom: 64.12%;
 background: #ECCFD6;
 transform: matrix(-1, 0, 0, 1, 0, 0);
 }
-.widgets.is-searchResults{
+.widgets .is-searchResults{
   display: flex;
   justify-content:space-between; 
 }
@@ -257,13 +257,109 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
 /*----------------------10----------------------*/
 /*       Actions: Change A Life, Adopt A Pet    */
 /*----------------------------------------------*/
+section.actions {
+    display: block;
+    top: 5350px;
+    background-color: #3040C4;
+    Width: 480px;
+    height: 250px;
+    margin-bottom: 58px;
+    
+}
+section.actions h2{
+  color: #FFFFFF;
+  font-size: 24px;
+  line-height: 33px;
+  text-transform: capitalize;
+  align-items: center;
+  padding-top: 59px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.button.is-outline{
+  display: block;
+  text-align: center;
+  background: #3040C4;
+  border-radius: 41px;
+  border: 1px solid #eeeeee;
+  color:#eeeeee;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  padding-left: 67px;
+  padding-right: 68px;
+}
+.button.is-secondary{
+  display: block;
+  background-color: #FFFFFF;
+  border-radius: 41px;
+  font-family: 'Avenir-Next';
+  font-size: 16px;
+  line-height: 25px;
+  color: #3040C4;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  padding-left: 67px;
+  padding-right: 68px;
+}
 
 
 
 /*---------------------11-----------------------*/
 /*                    FOOTER                    */
 /*----------------------------------------------*/
-.
+footer {
+    display: block;
+    top: 5700px;
+    margin-left: 26px;
+}
+
+footer .container{
+    display: flex;
+}
+
+.container .copyrights{
+    position: absolute;
+    color: #000000; 
+    line-height: 30px;
+}
+
+footer .footer-nav{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+
+footer .footer-nav .item{
+    padding-right: 75px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+
+footer .container h5{
+    font-family: 'Avenir Next';
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+footer .footer-nav li{
+    list-style-type: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Avenir Next';
+    text-transform: capitalize;
+    line-height: 30px;
+}
 
 
 /*----------------------12----------------------*/
